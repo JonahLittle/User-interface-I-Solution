@@ -77,7 +77,7 @@ header{
 	width: 70%;
 	height: 8%;
 	background-color: white;
-	margin-top: -55px;
+	top: 0;
 	z-index: 1;
 }
 header nav{
@@ -157,7 +157,7 @@ header img{
 	margin: 4% 4px;
 }
 
-.contentIMG{
+.middle-img {
 	width: 100%;
 }
 
