@@ -18,7 +18,7 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
+	border: ;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,74 +64,68 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
-* {
+*{
 	border: 2px solid grey;
 }
 body{
-	margin: 0% 15%;
 	background-color: white;
 }
 header{
-	position: fixed;
-	display: block;
-	width: 70%;
+	display:flex;
+	width: 100%;
 	height: 8%;
 	background-color: white;
-	top: 0;
-	z-index: 1;
+	align-items:center;
 }
 header nav{
+	display:flex;
+	justify-content: flex-start;
 	width: 75%;
-	text-align: center;
-	align-items: center;
-	position: relative;
-	top: 30%;
+	height:30px;
+	position:relative;
 }
 hr{
 	border: 1px solid black;
 }
 header a{
+	display:flex;
+	align-items: center;
+	justify-content:center;
 	width: 20%;
-	margin: 5% 4%;
 	color: grey;
 	text-decoration: none;
 }
 header a:hover{
 	color: black;
 }
-header img{
-	position: absolute;
-	top: 10%;
-	left: 76%;
+.logo{
+	display:flex;
+	height:40px;
+	align-items: space-between;
+	justify-content: center;
 }
+
 
 
 .CTASection{
-	padding: 4% 3%;
-	margin: 6% 0px;
-	position: relative;
+	display:flex;
+	justify-content: space-evenly;
 	width: 100%;
-	margin-bottom: 10%;
 }
 .CTASection img{
-	position: absolute;
-	bottom: -6%;
-	left: 55%;
+	display:flex;
 }
 .CTA{
 	font-size: 80px;
 	text-align: center;
-	position: relative;
 	right: 23%;
 	margin-top: 60px;
 }
 .CTASection button{
-	width: 13%;
-	padding: 1% 0px;
+	width: 80px;
 	color: grey;
 	background-color: white;
-	position: absolute;
-	left: 45%;
+	align-items: flex-start;
 }
 
 .CTASection button:hover{
